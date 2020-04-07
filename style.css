@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body, p, ol, ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+h1, h2, h3, h4, h5, h6{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #e43;
+}
+
+body{
+  font: 400 14px Roboto, sans-serif;
+  background: #f0f0f5;
+  -webkit-font-smoothing: antialiased;
+}
+
+button{
+  cursor: pointer;
+}
+
+label, input, button, textarea{
+  font: 400 18px Roboto, sans-serif;
+}
+
+form label {
+  width: 100%;
+  height: 60px;
+  color: #777;
+}
+form input, form textarea{
+  width: 100%;
+  height: 60px;
+  color: #333;
+  border: 1px solid #dcdce6;
+  border-radius: 8px;
+  padding: 0 24px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+header{
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  display: block;
+}
+
+.app-description{
+  color: #777;
+}
+
+.container{
+  width: 70%;
+  max-width: 1120px;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.content{
+  width: 100%;
+  padding: 50px;
+  background: #f0f0f5;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.new-task-container{
+  border-radius: 8px;
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+header{
+  margin-bottom: 20px;
+}
+
+.button{
+  width: 100%;
+  height: 60px;
+  background: #e43;
+  border: 0;
+  border-radius: 8px;
+  color: #FFF;
+  font-weight: 700;
+  margin-top: 16px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 60px;
+  transition: filter 0.2s;
+}
+
+.button:hover{
+  filter: brightness(90%);
+}
+
+.task-list{
+  border-radius: 5px;
+  margin-top: 10px;
+  background: #fff;
+  width: 100%;
+  padding: 20px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+.task-list ul li{
+  font-size: 2em;
+  padding: 5px 0;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+}
+
+.task-list ul li a{
+  color: red;
+  text-decoration: none;
+}

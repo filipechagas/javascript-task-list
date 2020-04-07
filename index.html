@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pure Javascript Task list</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <div class="content">
+      <header>
+        <h1>Task List</h1>
+        <p class="app-description">This is a pure JavaScript, Local Storage, Task List App</p>
+      </header>
+      <div class='new-task-container'>
+        <form action="#">
+          <label for="task-name">Task Name</label>
+          <input type="text" name="task-name" id="task-name">
+          <button type="submit" class="button">Create Task</button>
+        </form>
+      </div>
+      <div class="task-list">
+        <ul>
+          <li>Task 1 <a href="#">X</a></li>
+          <li>Task 2 <a href="#">X</a></li>
+          <li>Task 3 <a href="#">X</a></li>
+          <li>Task 4 <a href="#">X</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
