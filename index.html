@@ -16,18 +16,16 @@
         <p class="app-description">This is a pure JavaScript, Local Storage, Task List App</p>
       </header>
       <div class='new-task-container'>
-        <form action="#">
+        <form id="new-task-form">
           <label for="task-name">Task Name</label>
           <input type="text" name="task-name" id="task-name">
           <button type="submit" class="button">Create Task</button>
         </form>
       </div>
-      <div class="task-list">
-        <ul>
-          <li>Task 1 <a href="#">X</a></li>
-          <li>Task 2 <a href="#">X</a></li>
-          <li>Task 3 <a href="#">X</a></li>
-          <li>Task 4 <a href="#">X</a></li>
+      <div class="task-list-container">
+        <ul id="task-list">
+          <li><span class="task-name">Task 1</span><a class="delete-task" href="#">X</a></li>
+          <li><span class="task-name">Task 1</span><a class="delete-task" href="#">X</a></li>
         </ul>
       </div>
     </div>

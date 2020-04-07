@@ -124,7 +124,7 @@ header{
   filter: brightness(90%);
 }
 
-.task-list{
+.task-list-container{
   border-radius: 5px;
   margin-top: 10px;
   background: #fff;
@@ -133,7 +133,7 @@ header{
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
 }
 
-.task-list ul li{
+.task-list-container ul li{
   font-size: 2em;
   padding: 5px 0;
   border-bottom: 1px solid #ddd;
@@ -142,7 +142,7 @@ header{
   padding-right: 20px;
 }
 
-.task-list ul li a{
+.task-list-container ul li a{
   color: red;
   text-decoration: none;
 }
